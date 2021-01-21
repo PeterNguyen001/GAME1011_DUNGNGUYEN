@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\nguye\source\repos\GAME1011\GAME1011_DUNGNGUYEN\Lap1\Source.cpp(13,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\nguye\source\repos\GAME1011\GAME1011_DUNGNGUYEN\Lap1\Source.cpp(13,24): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\nguye\source\repos\GAME1011\GAME1011_DUNGNGUYEN\Lap1\Source.cpp(71,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\nguye\source\repos\GAME1011\GAME1011_DUNGNGUYEN\Lap1\Source.cpp(71,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Lap1.vcxproj -> C:\Users\nguye\source\repos\GAME1011\GAME1011_DUNGNGUYEN\Lap1\Debug\Lap1.exe
