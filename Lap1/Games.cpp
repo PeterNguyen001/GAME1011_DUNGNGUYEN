@@ -29,7 +29,7 @@ string Games::getDev()
 	return m_devoloper;
 }
 
-string Games::getpub() 
+string Games::getPub() 
 {
 	return m_publisher;
 }
@@ -42,6 +42,7 @@ int Games::getNum()
 void Games::setName()
 {
 	cout << "\nName of the game: ";
+	cin.ignore();
 	getline(cin, m_name);
 }
 
@@ -59,9 +60,9 @@ void Games::setpub()
 
 void Games:: setNum()
 {
-	cout << "\nHNumber of achievements: ";
+	cout << "\nNumber of achievements: ";
 	cin >> m_numOfAch;
-	listOfArc = new Achievements[m_numOfAch];
+	m_listOfArc = new Achievements[m_numOfAch];
 }
 
 #endif

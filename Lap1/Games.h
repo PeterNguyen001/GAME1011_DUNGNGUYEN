@@ -13,7 +13,7 @@ private:
 	int m_numOfAch;
 public:
 
-	Achievements* listOfArc;
+	Achievements* m_listOfArc;
 	
 	Games(string n, string d, string p, int num);
 	
@@ -25,7 +25,7 @@ public:
 	string getDev();
 
 
-	string getpub();
+	string getPub();
 
 		
 	int getNum();

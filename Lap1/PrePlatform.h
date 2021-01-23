@@ -16,7 +16,8 @@ public:
 	PrePlatform(int n);
 
 	PrePlatform();
-	
+	int getNum();
+
 	void ListOfPlat();
 
 

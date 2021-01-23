@@ -26,12 +26,13 @@ string Achievements::getDes()
 
 void Achievements::setName()
 {
-	cout << "\nName of the achievements";
+	cin.ignore();
+	cout << "\nName of the achievements: ";
 	getline(cin, m_name);
 }
 
 void Achievements::setDes()
 {
-	cout << "\nDesciption of the achievements";
+	cout << "\nDesciption of the achievements: ";
 	getline(cin, m_description);
 }

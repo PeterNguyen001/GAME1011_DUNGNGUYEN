@@ -9,6 +9,11 @@ PrePlatform::PrePlatform()
 	m_numOfPlat = 1;
 }
 
+int PrePlatform::getNum()
+{
+	return m_numOfPlat;
+}
+
 void PrePlatform::ListOfPlat()
 {
 	cout << "\nNumber of platforms: ";

@@ -4,7 +4,6 @@
 
 Platform::Platform(string n, string m, int num)
 {
-	cout << "\ncreating platform";
 	m_name = n;
 	m_manufacturer = m;
 	m_numOfGame = num;
@@ -12,9 +11,9 @@ Platform::Platform(string n, string m, int num)
 
 Platform::Platform()
 {
-	m_name = "N/A";
-	m_manufacturer = "N/A";
-	m_numOfGame = 1;
+	m_name = "";
+	m_manufacturer = "";
+	m_numOfGame = 0;
 }
 
 string Platform :: getName()
@@ -34,8 +33,10 @@ int Platform::getNumOfgame()
 
 void Platform::setName()
 {
+	
 	cout << "\nName of the platform: ";
-	getline(cin, m_name);
+	cin.ignore();
+	getline(cin, m_name,'\n');
 }
 
 void Platform::setManufacturer()
