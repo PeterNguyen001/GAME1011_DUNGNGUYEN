@@ -2,15 +2,19 @@
 #include <iostream>
 #include <string>
 
+#include "Games.h"
+
 using namespace std;
 class Platform 
 {
 private:
 	string m_name;
 	string m_manufacturer;
-	int m_gamesNumber;
+	int m_numOfGame;
 
 public:
+	Games* m_listOfGames;
+	
 	Platform();
 
 	Platform(string n, string manuName, int g);
@@ -30,6 +34,6 @@ public:
 
 	string getListOfGame();
 
-	string getAlldata();
+
 
 };

@@ -139,11 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Achievements.cpp" />
     <ClCompile Include="Games.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="PrePlatform.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Achievements.h" />
     <ClInclude Include="Games.h" />
     <ClInclude Include="Platform.h" />
     <ClInclude Include="PrePlatform.h" />

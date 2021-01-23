@@ -24,6 +24,9 @@
     <ClInclude Include="PrePlatform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Achievements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,6 +36,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Games.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrePlatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Achievements.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

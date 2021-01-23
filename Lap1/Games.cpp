@@ -1,5 +1,5 @@
-#include "Platform.h"
 #include "Games.h"
+#include "Achievements.h"
 #ifndef GAMES_H
 #define GAMES_H
 
@@ -41,7 +41,7 @@ int Games::getNum()
 
 void Games::setName()
 {
-	cout << "\nName of the achievement: ";
+	cout << "\nName of the game: ";
 	getline(cin, m_name);
 }
 
@@ -59,9 +59,9 @@ void Games::setpub()
 
 void Games:: setNum()
 {
-	cout << "\nHow many achievements: ";
+	cout << "\nHNumber of achievements: ";
 	cin >> m_numOfAch;
-	Platform* listOfArc = new Platform[m_numOfAch];
+	listOfArc = new Achievements[m_numOfAch];
 }
 
 #endif
